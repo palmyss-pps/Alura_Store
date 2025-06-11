@@ -21,7 +21,9 @@ loja2 = pd.read_csv(url2)
 loja3 = pd.read_csv(url3)
 loja4 = pd.read_csv(url4)
 
-📊 Etapas da Análise
+\'''python
+
+# 📊 Etapas da Análise
 Análise do Faturamento
 Cálculo do faturamento total por loja.
 Soma dos preços das vendas para cada loja.
