@@ -79,9 +79,18 @@ Identificação dos 5 produtos que geraram maior receita e dos 5 que geraram men
 | Smart TV           | R\$  89.936,15 | Dinossauro Rex    | R\$   918.40 |
 | Lavadora de roupas | R\$  87.711,30 | Corda de pular    | R\$   870.89 |
 
+Para ter acesso aos demais resultados, acesse: https://colab.research.google.com/drive/1vugsTVCYRM4Q6yi8BD4Tf3Wyr1lFCEIm#scrollTo=Rq6tU_xSY3jk&uniqifier=1
+
 
 ### 5.Frete Médio por Loja
 Cálculo do custo médio do frete por loja.
+
+| Loja   | Frete Médio |
+| ------ | ----------- |
+| Loja 1 | R\$ 34,69   |
+| Loja 2 | R\$ 33,62   |
+| Loja 3 | R\$ 33,07   |
+| Loja 4 | R\$ 31,28   |
 
 ## Visualizações
 
@@ -90,7 +99,13 @@ Cálculo do custo médio do frete por loja.
 - Gráfico de dispersão entre preço e frete para cada loja, com possibilidade de escolher a loja a analisar.
 
 ## Análise Geográfica
-Visualização da distribuição geográfica das vendas com latitude e longitude, destacando cada loja.
+-  **Visualização da distribuição geográfica** das vendas com latitude e longitude, destacando cada loja.
+* **Mapas de Calor** (Heatmaps) com base no número de vendas e no valor total vendido.
+* **Mapas de Dispersão** com pontos coloridos por loja para entender a atuação geográfica.
+* **Quantidade de vendas e receitas por estado.**
+
+Observação: Os dados possuem coordenadas muito semelhantes entre si, por isso há grande sobreposição entre os pontos.
+
 
 ## 🛠 Tecnologias Utilizadas
 - Python 3.x
@@ -125,6 +140,11 @@ Com base nos dados, a recomendação é vender a Loja 4, pois:
 - Tem avaliação média e desempenho abaixo das outras.
 
 - Embora tenha o menor custo de frete, isso não se traduz em melhores resultados financeiros.
+
+## ✅ Conclusão
+
+Este projeto possibilitou explorar dados de forma abrangente, identificando padrões de consumo, desempenho por loja, preferências de categoria, e variações por região, utilizando visualizações e ferramentas geográficas.
+
 
 ## 📥 Como Rodar o Projeto
 **1.** Clone o repositório.
