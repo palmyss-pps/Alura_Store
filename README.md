@@ -21,7 +21,7 @@ loja2 = pd.read_csv(url2)
 loja3 = pd.read_csv(url3)
 loja4 = pd.read_csv(url4)
 
-\'''python
+```
 
 # 📊 Etapas da Análise
 Análise do Faturamento
