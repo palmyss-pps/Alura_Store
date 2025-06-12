@@ -68,6 +68,18 @@ Cálculo da média das avaliações dadas pelos clientes em cada loja.
 ### 4.Produtos Mais e Menos Vendidos
 Identificação dos 5 produtos que geraram maior receita e dos 5 que geraram menor receita em cada loja.
 
+#### Loja 1 - Top 5 produtos que MAIS e MENOS dinheiro geraram: 
+
+
+| Mais Vendido       | Receita        | Menos Vendido     | Receita      |
+| ------------------ | -------------- | ----------------- | ------------ |
+| TV Led UHD 4K      | R\$ 189.534,28 | Xadrez de madeira | R\$ 1.907,42 |
+| Geladeira          | R\$ 149.524,28 | Jogo de copos     | R\$ 1.812,15 |
+| Celular Plus X42   | R\$ 130.536,40 | Cubo mágico 8x8   | R\$   929,27 |
+| Smart TV           | R\$  89.936,15 | Dinossauro Rex    | R\$   918.40 |
+| Lavadora de roupas | R\$  87.711,30 | Corda de pular    | R\$   870.89 |
+
+
 ### 5.Frete Médio por Loja
 Cálculo do custo médio do frete por loja.
 
