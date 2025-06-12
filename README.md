@@ -23,82 +23,84 @@ loja4 = pd.read_csv(url4)
 
 ```
 
-# 📊 Etapas da Análise
-Análise do Faturamento
+## 📊 Etapas da Análise
+### 1.Análise do Faturamento
 Cálculo do faturamento total por loja.
 Soma dos preços das vendas para cada loja.
 
-Vendas por Categoria
+### 2.Vendas por Categoria
 Agrupamento e soma das vendas por categoria de produto para cada loja.
 
-Média de Avaliação das Lojas
+### 3.Média de Avaliação das Lojas
 Cálculo da média das avaliações dadas pelos clientes em cada loja.
 
-Produtos Mais e Menos Vendidos
+### 4.Produtos Mais e Menos Vendidos
 Identificação dos 5 produtos que geraram maior receita e dos 5 que geraram menor receita em cada loja.
 
-Frete Médio por Loja
+### 5.Frete Médio por Loja
 Cálculo do custo médio do frete por loja.
 
-Visualizações
+## Visualizações
 
-Gráficos de barras, linhas e pizza para mostrar receita total, média e participação de cada loja.
+- Gráficos de barras, linhas e pizza para mostrar receita total, média e participação de cada loja.
 
-Gráfico de dispersão entre preço e frete para cada loja, com possibilidade de escolher a loja a analisar.
+- Gráfico de dispersão entre preço e frete para cada loja, com possibilidade de escolher a loja a analisar.
 
-Análise Geográfica
+## Análise Geográfica
 Visualização da distribuição geográfica das vendas com latitude e longitude, destacando cada loja.
 
-🛠 Tecnologias Utilizadas
-Python 3.x
+## 🛠 Tecnologias Utilizadas
+- Python 3.x
 
-Pandas
+- Pandas
 
-Matplotlib
+- Matplotlib
 
-Seaborn
+- Seaborn
 
-CSV / URL Reading
+- CSV / URL Reading
 
-💡 Resultados e Insights
-Faturamento Total: Loja 1 tem o maior faturamento; Loja 4, o menor.
+## 💡 Resultados e Insights
 
-Vendas por Categoria: Eletrônicos e eletrodomésticos são as categorias principais.
+- **Faturamento Total:** Loja 1 tem o maior faturamento; Loja 4, o menor.
 
-Avaliação Média: Loja 3 possui a melhor avaliação; Loja 1, a pior.
+- **Vendas por Categoria:** Eletrônicos e eletrodomésticos são as categorias principais.
 
-Produtos Mais Vendidos: TVs, geladeiras e celulares lideram as vendas.
+- **Avaliação Média:** Loja 3 possui a melhor avaliação; Loja 1, a pior.
 
-Custo do Frete: Loja 4 tem o menor custo médio de frete.
+- **Produtos Mais Vendidos:** TVs, geladeiras e celulares lideram as vendas.
 
-Análise Geográfica: Distribuição dos clientes por localização mostra diferenças nas áreas atendidas pelas lojas.
+- **Custo do Frete:** Loja 4 tem o menor custo médio de frete.
 
-📈 Recomendação Estratégica
+- **Análise Geográfica:** Distribuição dos clientes por localização mostra diferenças nas áreas atendidas pelas lojas.
+
+## 📈 Recomendação Estratégica
 Com base nos dados, a recomendação é vender a Loja 4, pois:
 
-Apresenta o menor faturamento.
+- Apresenta o menor faturamento.
 
-Tem avaliação média e desempenho abaixo das outras.
+- Tem avaliação média e desempenho abaixo das outras.
 
-Embora tenha o menor custo de frete, isso não se traduz em melhores resultados financeiros.
+- Embora tenha o menor custo de frete, isso não se traduz em melhores resultados financeiros.
 
-📥 Como Rodar o Projeto
-Clone o repositório.
+## 📥 Como Rodar o Projeto
+**1.** Clone o repositório.
 
-Instale as dependências:
+**2.** Instale as dependências:
 
-bash
-Copiar
-Editar
+```bash
+
 pip install pandas matplotlib seaborn
-Execute os scripts para importar os dados e rodar as análises.
 
-Utilize as funções interativas para explorar vendas por loja e visualizar gráficos.
+```
 
-📄 Exemplo de Uso
-python
-Copiar
-Editar
+**3.** Execute os scripts para importar os dados e rodar as análises.
+
+**4.** Utilize as funções interativas para explorar vendas por loja e visualizar gráficos.
+
+## 📄 Exemplo de Uso
+``` python
+
 from urllib.request import urlopen
 import csv
 
@@ -121,3 +123,7 @@ for i, url in enumerate(urls):
     faturamento_total += faturamento_loja
 
 print(f"\nFaturamento total de todas as lojas: R$ {faturamento_total:.2f}")
+```
+
+Se quiser visualizar o código completo, gráficos e mapas interativos, confira o notebook no Google Colab (https://colab.research.google.com/drive/1vugsTVCYRM4Q6yi8BD4Tf3Wyr1lFCEIm#scrollTo=fCcBbkVPmDGL&uniqifier=1)).
+
