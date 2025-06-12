@@ -28,11 +28,42 @@ loja4 = pd.read_csv(url4)
 Cálculo do faturamento total por loja.
 Soma dos preços das vendas para cada loja.
 
+### 1. Faturamento das Lojas
+
+| Loja   | Faturamento Total |
+| ------ | ----------------- |
+| Loja 1 | R\$ 1.534.509,12  |
+| Loja 2 | R\$ 1.488.459,06  |
+| Loja 3 | R\$ 1.464.025,03  |
+| Loja 4 | R\$ 1.384.497,58  |
+| Total  | R\$ 5.871.490,79  |
+
 ### 2.Vendas por Categoria
 Agrupamento e soma das vendas por categoria de produto para cada loja.
 
+#### Vendas por categoria na loja 1:
+
+| Categoria             | Faturamento Total |
+| ------                | ----------------- |
+| eletronicos           | R\$ 572.659,23    |
+| eletrodomesticos      | R\$ 484.913,36    |
+| instrumentos musicais | R\$ 250.178,11    |
+| esporte e lazer       | R\$ 121.731,69    |
+| brinquedos            | R\$  52.387,55    |
+| utilidades domesticas | R\$  23.993,78    |
+| livros                | R\$  11.713,92    |
+
+Para ter acesso aos demais resultados, acesse: https://colab.research.google.com/drive/1vugsTVCYRM4Q6yi8BD4Tf3Wyr1lFCEIm#scrollTo=Rq6tU_xSY3jk&uniqifier=1
+
 ### 3.Média de Avaliação das Lojas
 Cálculo da média das avaliações dadas pelos clientes em cada loja.
+
+| Avaliação | Nota média |
+| --------- | ---------- |
+| Loja 1    |   3.98     |
+| Loja 2    |   4.04     |
+| Loja 3    |   4.05     |
+| Loja 4    |   4.00     |
 
 ### 4.Produtos Mais e Menos Vendidos
 Identificação dos 5 produtos que geraram maior receita e dos 5 que geraram menor receita em cada loja.
